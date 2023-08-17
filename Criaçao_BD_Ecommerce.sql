@@ -1,3 +1,9 @@
+-- criação do banco de dados para E-comerce
+create database ecomerce;
+
+use ecomerce;
+
+-- criando a tabela cliente
 create table cliente(
 	idClient int auto_increment,
     fname varchar(20) not null,
