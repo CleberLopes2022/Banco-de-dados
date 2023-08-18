@@ -2,7 +2,7 @@
 Create schema oficina;
 
 -- Entrando no Banco de dados oficina--
-use oficina
+use oficina;
 
 -- Criando a tabela Clientes
 create table clientes (
@@ -107,8 +107,6 @@ Select * from veiculo;
 
 -- recuperando peças --
 Select * from pecas;
-
-
 
 -- Filtros com WHERE Statement --
 -- Verificando qual o mecanico com um Id especifico --
